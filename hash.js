@@ -4,7 +4,7 @@ var hash=function(a){
   if(a==='back'){
     /* It replicates the browser back button */
     window.history.back();
-		/* Triggering hash function to re-call page */
+    /* Triggering hash function to re-call page */
     hash();
   }
   else{
